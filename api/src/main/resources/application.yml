@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost:3306/test_api"
+    username: "root"
+    password: "srwcemfa"
+  jpa:
+    generate-ddl: true
+    hibernate:
+      hbm2ddl:
+        auto: true
